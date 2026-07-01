@@ -164,6 +164,3 @@ pipenv run ./evaluation/eval_deepeval.py
 - **MCP (Model Context Protocol)** — Integrazione con server MCP per esporre tool e risorse all'agente in modo standardizzato
 - **Redis** — Sostituzione dell'in-memory store con Redis per la gestione persistente delle sessioni e della chat history tra riavvii del server
 - **Database reale** — Connessione a PostgreSQL/MongoDB per ordini, ticket e profili utente al posto dei file JSON statici
-- **Cloud Provider** — Deploy dell'intera stack su infrastruttura cloud:
-  - **AWS**: FastAPI su ECS/Fargate, Chainlit su App Runner, Redis con ElastiCache, ChromaDB su EFS o migrazione a OpenSearch
-  - **Azure**: Container Apps, Azure Cache for Redis, Azure OpenAI Service per i modelli LLM
